@@ -1,0 +1,39 @@
+.scroll{
+    top:120%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+ }
+ .scroll span {
+     display: block;
+     border-right: 2px solid #ffffff;
+     border-bottom: 2px solid #ffffff;
+     transform: rotate(45deg);
+     height: 20px;
+     width: 20px; 
+     margin: -5px;
+     animation: cosmo 2s infinite;
+ }
+ .scroll span:nth-child(1)
+ {
+    animation-delay: -0.2s;
+ }
+  .scroll span:nth-child(2)
+ {
+   animation-delay: -0.4s;
+ }
+
+
+ @keyframes cosmo {
+
+     0%{
+         opacity: 0;
+     }
+     50%{
+         opacity: 1;
+     }
+     100%{
+         opacity: 0;
+     }
+
+ }

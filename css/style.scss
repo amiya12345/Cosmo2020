@@ -1,0 +1,302 @@
+
+
+
+
+
+body{
+	font-family: "livvic";
+
+}
+.front{
+	height: 100%;
+	width:100%;
+	background-image: url("../img/45880226_1976475782431090_4113142548468334592_o.jpg");
+	background-size: cover;
+	background-position: 50%;
+	background-repeat:no-repeat;
+	
+}
+.header{
+	position: absolute;
+	top:20%;
+
+	h1{
+		padding-top:20px;
+		font-family: "Sacramento";
+		font-size: 100;
+
+		@media (max-width:576px){
+			font-size:60;
+		}
+	}
+}
+#banner{
+	background: rgba(0,0,0,0.3);
+	color:white;
+	padding:20px;
+	width:100%;
+}
+#countdown{
+	margin-top:120px;
+	@media (min-width:1000px){
+		margin-top:55px;
+	}
+	div{
+		padding: 5px;
+		border-radius: 3px;
+		
+		display: inline-block;
+		box-sizing : border-box;
+
+		span{
+			padding:15px;
+			border-radius: 3px;
+			background: rgba(238, 141, 30, 0.411);
+			// background: rgba(201, 200, 200, 0.8);
+			display: block;
+			color:white;
+			font-weight: 700;
+			font-size:25px;
+
+			@media (min-width:1000px){
+				padding:20px;
+			}
+		}
+
+		@media (min-width:1000px){
+			padding:10px;
+		}
+
+	}
+	.smalltext{
+		padding-top: 5px;
+		font-size: 12px;
+	}
+}
+#bgevent{
+	height: 100%;
+	width:100%;
+	background-image: url("../img/event.jpg");
+	background-size: cover;
+	background-position: 50%;
+	z-index:-10;
+}
+#bgfaq{
+	height: 100%;
+	width:100%;
+	background-image: url("../img/Faqs.jpg");
+	background-size: cover;
+	background-position: 50%;
+	z-index:-10;
+
+	@media (max-width:768px){
+		background-position: 20%;;
+	}
+
+}
+.landing_page{
+	width:100%;
+	height:50%;
+	background-color:rgba(255,255,255,0.5);
+	font-family:"livvic";
+	justify-items: center;
+
+	@media (min-width:769px){
+		h1{
+			font-size:4rem;
+		}
+	}
+	
+}
+/* .landing_page h1{
+	font-size:4rem;
+
+} */
+.vert_center{
+	position: absolute;
+	width:100%;
+	top : 50%;
+	transform:translateY(-50%);
+}
+.logo{
+	height: 150;
+}
+@media (max-width:768px){
+	.logo{
+		height:80;
+	}
+}
+/*Navbar Styling*/
+.nav_class{
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.5);
+	background: linear-gradient(135deg, #333333, #000000 , #333333);
+}
+#cosmo_bar{
+	position: relative;
+	padding:auto 10px;
+}
+.nav-link,.navbar-brand {
+	color:#fff;
+	text-decoration: none;
+}
+.nav-link:hover {
+	color:#ccc;
+}
+.nav-link:active {
+	color:#aaa;
+	font-weight: 900;
+}
+.active {
+	color:rgb(221, 69, 145);
+	font-weight: 700;
+}
+.navbar-brand:hover {
+	color:#ccc;
+}
+/*Navbar ended*/
+/*Main Content Starts */
+#main{
+	width:100%;
+	background-image: url("../img/WhatsApp\ Image\ 2019-10-17\ at\ 11.55.01\ PM.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y:100%;
+	color:white;
+	padding:0;
+	font-family: "livvic";
+}
+#main:first-child{
+	padding-top:2%;
+	padding-bottom: 10%;
+
+	h2{
+		font-size:3rem;
+		padding-top:15%;
+	}
+	p{
+		background-color: rgba(0,0,0,0.5);
+		margin-top: 10px;
+		padding:10px;
+	}
+}
+#about_btn{
+	border:1px solid pink;
+	color:pink;
+	padding:0px 8px;
+	
+}
+#gallery{
+	padding-top:2%;
+	padding-bottom:50px;
+}
+#gallery>a>img{
+	height: 100%;
+	object-fit: cover;
+}
+.gallery{
+	background-image: url("../img/saloni.jpg");
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+	padding:5% 20px;
+	font-family: "livvic";
+}
+#sponsors,#counters{
+	padding-top:10%;
+	padding-bottom:10%;
+}
+#sponsors>div>img{
+	height:150px;
+	margin:10px;
+}
+#sponsor{
+	.line{
+		margin-top: 5%;
+	}
+}
+/* counters */
+.counter{
+	font-size:3rem;
+	color: pink;
+}
+.panel{
+	margin:10px auto;
+	background-color:#fefefe;
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.5);
+	// border-top:2px solid rgb(236, 158, 122);
+	padding: 10px;
+	a{
+		color:black;
+		text-decoration: none;
+	}
+	a:hover,a:active{
+		text-decoration: none;
+	}
+	.panel-body{
+		padding:30px;
+	}
+}
+#counters{
+	.row{
+		margin-top:5%;
+		div{
+			background: linear-gradient(135deg, #666666, #333333 , #666666);
+			border-radius:20px;
+			margin:15px;
+			height: 200px;
+			max-width:200px;
+			border-radius:100px;
+			color:white;
+			
+			p{
+				position: absolute;
+				top:50%;
+				left:50%;
+				transform: translate(-50%,-50%);
+			}
+		}
+
+		
+	}
+}
+#cosmo-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: rgb(221, 69, 145);
+	background: rgba(221, 69, 145,1);
+	width: 50px;
+	height: 50px;
+   display: block;
+   text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+   border-radius: 35px;
+  display: none;
+ -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+#cosmo-to-top i {
+color: #fff;
+margin: 0;
+position: relative;
+left: 16px;
+top: 13px;
+font-size: 19px;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+#cosmo-to-top:hover {
+	background: rgba(221, 69, 145,0.9);
+}
+#cosmo-to-top:hover i {
+color: #fff;
+top: 5px;
+}
